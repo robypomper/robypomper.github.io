@@ -30,6 +30,12 @@
 
 ## Content
 
+### Version 20230706
+
+* Created MyPresentation, MyProjects, MySports and MyPhotos sections
+* Created placeholder pages for sections
+* Published the first blog's article "Welcome post"
+
 ### Version 00000000
 
 * Default Docusaurus contents
