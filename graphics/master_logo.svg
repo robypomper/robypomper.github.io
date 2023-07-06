@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:export-filename="logo.png"
+   inkscape:export-xdpi="192"
+   inkscape:export-ydpi="192"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09, custom)"
+   sodipodi:docname="master_logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     showguides="true"
+     inkscape:zoom="4.7572176"
+     inkscape:cx="250.46153"
+     inkscape:cy="99.638074"
+     inkscape:window-width="3382"
+     inkscape:window-height="1403"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <sodipodi:guide
+       position="52.96478,264.18018"
+       orientation="1,0"
+       id="guide2038"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="59.788536,244.10801"
+       orientation="0,-1"
+       id="guide2040"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="fill:#2e8555;fill-opacity:1;stroke-width:0.468352"
+       id="path111"
+       cx="26.458334"
+       cy="26.458334"
+       r="26.458334"
+       inkscape:export-filename="logo_400.png"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+    <text
+       xml:space="preserve"
+       style="font-size:35.2778px;fill:#f2f2f2;fill-opacity:1;stroke-width:0.264583"
+       x="2.5078795"
+       y="39.405266"
+       id="text1934"><tspan
+         sodipodi:role="line"
+         id="tspan1932"
+         style="font-size:35.2778px;fill:#f2f2f2;stroke-width:0.264583"
+         x="2.5078795"
+         y="39.405266">RP</tspan></text>
+  </g>
+</svg>
