@@ -1,0 +1,8 @@
+{
+  "label": "My Sports",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "A list of my favourite sports"
+  }
+}

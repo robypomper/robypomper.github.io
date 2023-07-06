@@ -1,0 +1,8 @@
+{
+  "label": "My Projects",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "A list of projects that I realized during past years"
+  }
+}

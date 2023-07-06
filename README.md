@@ -4,7 +4,7 @@ Repository that exports the [www.robypomper.org](https://www.robypomper.org)
 Web Site as GitHub Pages.
 
 * **WebSite Version:** 0.0.1
-* **Content Version:** 00000000
+* **Content Version:** 20230706
 
 [CHANGELOG](CHANGELOG.md) | [TODOs](TODOs.md) | [LICENCE](LICENCE.md)
 
