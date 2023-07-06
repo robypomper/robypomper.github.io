@@ -140,7 +140,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Roberto Pompermaier`,
+        copyright: `Copyright © ${new Date().getFullYear()} Roberto Pompermaier | ver 0.0.1`,
       },
       prism: {
         theme: lightCodeTheme,
