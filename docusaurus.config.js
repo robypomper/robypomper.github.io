@@ -6,27 +6,19 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
-
-  // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
+  title: 'RobyPomper.org',
+  tagline: 'Roberto Pompermaier\'s personal web site',
+  favicon: 'img/logo_32.ico',
+  url: 'https://www.robypomper.org',
   baseUrl: '/',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'robypomper',
+  projectName: 'robypomper.github.io',
+  deploymentBranch: 'gh-pages',
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -38,18 +30,16 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          path: 'sections',
+          breadcrumbs: true,
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/robypomper/robypomper.github.io/edit/main',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/robypomper/robypomper.github.io/edit/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -61,25 +51,28 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/robypomper-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Home',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'RobyPomper Logo',
+          src: 'img/logo_200.png',
         },
         items: [
           {
+            label: 'Sections',
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'sectionsSidebar',
             position: 'left',
-            label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            label: 'Blog',
+            to: '/blog',
+            position: 'left'
+          },
+          {
+            href: 'https://www.johnosproject.org',
+            label: 'John OS',
             position: 'right',
           },
         ],
@@ -88,50 +81,85 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'RobyPomper.org',
             items: [
               {
-                label: 'Tutorial',
+                label: 'My Presentation',
                 to: '/docs/intro',
               },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'My Projects',
+                to: '/docs/category/my-projects',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'My Sports',
+                to: '/docs/category/my-sports',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'My Photos',
+                to: '/docs/photos',
               },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
               {
-                label: 'Blog',
+                label: 'My Blog',
                 to: '/blog',
+              },
+            ],
+          },
+          {
+            title: 'Other WebSites',
+            items: [
+              {
+                label: 'John OS Project',
+                href: 'https://www.johnosproject.org',
+              },
+              {
+                label: 'SmartVan',
+                href: 'https://smartvan.johnosproject.org',
+              },
+              {
+                label: 'Smart Aladino',
+                href: 'https://smartaladino.johnosproject.org',
+              },
+              {
+                label: 'Utils Libs',
+                href: 'https://utils_libs.robypomper.org',
+              },
+            ],
+          },
+          {
+            title: 'Social',
+            items: [
+              {
+                label: 'Linkedin',
+                href: 'https://www.linkedin.com/in/roberto-pompermaier-474a4132/',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/robypomper',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Roberto Pompermaier`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+      },
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: true,
+      },
+      tableOfContents: {
+        minHeadingLevel: 2,
+        maxHeadingLevel: 4,
+      },
+      announcementBar: {
+        id: 'under_maintenance_1',
+        content: 'Hi, <b>I\'m updating this web site.</b> Please, come back soon to see the news!',
+        backgroundColor: '#fafbfc',
+        textColor: '#091E42',
+        isCloseable: true,
       },
     }),
 };
