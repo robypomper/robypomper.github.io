@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.robypomper.org/blog</id>
+    <title>RobyPomper.org Blog</title>
+    <updated>2023-07-06T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://www.robypomper.org/blog"/>
+    <subtitle>RobyPomper.org Blog</subtitle>
+    <icon>https://www.robypomper.org/img/logo_32.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Welcome to RobyPomper.org]]></title>
+        <id>https://www.robypomper.org/blog/2023/07/06/welcome-post</id>
+        <link href="https://www.robypomper.org/blog/2023/07/06/welcome-post"/>
+        <updated>2023-07-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I'm happty to welcome you on my new personal web site.]]></summary>
+        <content type="html"><![CDATA[<p>I'm happty to welcome you on my new personal web site.</p><p>Here I'll collect all my personal projects related with IT, Makers and Sports.
+At this moment, this web site and his content is not completed and still some
+works to do...<br>
+But ok! It still enought to be published as a preview.</p><p>So see you soon and wish me ... good luck.</p>]]></content>
+        <author>
+            <name>Roberto Pompermaier</name>
+            <uri>https://www.robypomper.org</uri>
+        </author>
+        <category label="welcome" term="welcome"/>
+    </entry>
+</feed>

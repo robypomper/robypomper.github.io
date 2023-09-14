@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>RobyPomper.org Blog</title>
+        <link>https://www.robypomper.org/blog</link>
+        <description>RobyPomper.org Blog</description>
+        <lastBuildDate>Thu, 06 Jul 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Welcome to RobyPomper.org]]></title>
+            <link>https://www.robypomper.org/blog/2023/07/06/welcome-post</link>
+            <guid>https://www.robypomper.org/blog/2023/07/06/welcome-post</guid>
+            <pubDate>Thu, 06 Jul 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[I'm happty to welcome you on my new personal web site.]]></description>
+            <content:encoded><![CDATA[<p>I'm happty to welcome you on my new personal web site.</p><p>Here I'll collect all my personal projects related with IT, Makers and Sports.
+At this moment, this web site and his content is not completed and still some
+works to do...<br>
+But ok! It still enought to be published as a preview.</p><p>So see you soon and wish me ... good luck.</p>]]></content:encoded>
+            <category>welcome</category>
+        </item>
+    </channel>
+</rss>
