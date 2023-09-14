@@ -30,6 +30,10 @@
 
 ## Content
 
+### Version 20230914
+
+* Added Smart Van project's content
+
 ### Version 20230706
 
 * Created MyPresentation, MyProjects, MySports and MyPhotos sections
